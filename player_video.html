@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<htlm lang="fr">
+    <head>
+        <title>Player Video</title>
+    </head>
+    <body>
+        <div id= "inputField" style="display:none;" >
+            <input type="text" id="videoFile" value="../videos/toystory.mp4" />        
+            <button id="loadVideo" >Load</button>
+        </div>
+        <button id="play" onclick="playPause()">Play/Pause</button> 
+        <button onclick="makeBig()">Big</button>
+        <button onclick="makeSmall()">Small</button>
+        <button onclick="makeNormal()">Normal</button>
+        <button onclick="getVideo()">Change Video</button>
+        <br><br>
+        <video id="IDvideo"> 
+              <source src="../videos/small.webm" type=video/webm> 
+              <source src="../videos/small.ogv" type=video/ogg> 
+              <source src="../videos/small.mp4" type=video/mp4>
+              <source src="../videos/small.3gp" type=video/3gp>
+        </video>
+    </body>
+    <script type="text/javascript" src="playerVideo.js"> </script>
+</html>
