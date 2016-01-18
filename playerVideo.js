@@ -1,6 +1,9 @@
 var myVideo = document.getElementById("IDvideo");
 var myVideoName = "0";
 
+var myVideoTab = ["00","000","0000","01","001","0001","010","0010","011","0011","0100","0101","0110","0111"];
+var myTimerTab = [250,500,1000,2000,250,500,1000,2000,250,500,1000,2000,250,500];
+
 function playPause() { 
     if (myVideo.paused) 
         myVideo.play(); 
@@ -41,4 +44,13 @@ function getVideo() {
         else {
             errMessage("Enter a valid video URL");  // fail silently
         }
-}    
+}
+function hideButtons(){
+        document.getElementById("droite").style.opacity = "0";
+        document.getElementById("gauche").style.opacity = "0";
+        setTimeout(showButtons, myTimerTab[myVideoTab.indexOf(myVideoName)]);
+}
+function showButtons(){
+        document.getElementById("droite").style.opacity = "1";
+        document.getElementById("gauche").style.opacity = "1";   
+}

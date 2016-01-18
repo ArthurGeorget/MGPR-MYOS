@@ -14,8 +14,8 @@
         <button onclick="makeNormal()">Normal</button>
         <button onclick="getVideo()">Change Video</button>
         
-        <button onclick="choixGauche();getVideo();">Gauche</button>
-        <button onclick="choixDroite();getVideo();">Droite</button>
+        <button id="gauche" onclick="choixGauche();getVideo();hideButtons();">Gauche</button>
+        <button id="droite" onclick="choixDroite();getVideo();hideButtons();">Droite</button>
         <br><br>
         <video id="IDvideo"> 
               <source src="../content/0.mp4" type=video/mp4>
