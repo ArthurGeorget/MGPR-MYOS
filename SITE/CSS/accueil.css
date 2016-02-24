@@ -1,0 +1,21 @@
+#jouer {
+    position:absolute;
+    text-align: center;
+	font-size: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 0.1em solid white;
+    text-decoration: none;
+    width: 350px;
+    margin-left: -175px;
+    left:50%;
+    height: 118px;
+    margin-top: 59px;
+    top:30%;
+}
+
+#jouer:hover{
+    background-color: rgba(0, 169, 206, 0.25);
+    color: white;
+
+}

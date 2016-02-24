@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <head>
+    <title> Make Your Own Story</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link hreh="STATIC/jquery/jquery-2.2.0.js">
+   <link href='https://fonts.googleapis.com/css?family=Unica+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="equipe.css">
+    </head>
+    <body>
+       
+        <div class="row">
+            <div class="col-sm-3"> 
+               <a href="Acceuil.html"> <img id="logo" src="MYOS_logo.png"></a>
+            
+            </div>
+            <div class="col-sm-9">
+                
+                <ul id="menu2">
+                    <a href="Acceuil.html" id="menu"> MENU</a>
+                    
+                    <li> <a href="regles.html"> RÈGLES </a></li>
+                    
+                    <li> <a href="concept.html"> CONCEPT </a></li>
+        
+                    <!--  <li> <a href="#"> COMMENTAIRES </a></li> -->
+                    
+                    <li> <a href="equipe.html"> ÉQUIPE </a></li>
+                    
+                    <li> <a href="credits.html"> CRÉDITS </a></li>
+                
+                </ul>
+            
+            </div>
+        </div>
+    
+    
+    
+        <div class='row'>
+            
+     <div class="col-md-offset-1 col-md-2" class="myos"><a href="#" id="tudi" onmouseover="changeContent('PresTudi'); changeNom('prenomTudi');" mouseout='lequipe();'></a>
+            <input type="hidden" id="PresTudi" value="Drapeau breton sur le dos et bouteille de chouchen à la main, Tudi s'occupe de la prise de son et du mixage avec une sensibilité sonore cultivée lors de sa jeunesse sur la West Coast (française, bien sûr). Il a réussi à ne pas trop inclure de cornemuse dans le projet."><input type="hidden" id="prenomTudi" value="TUDI">
+            
+            </div>
+            <div class="col-md-2" class="myos"> <a href="#" id="axelle"  onmouseover="changeContent('PresAxelle'); changeNom('prenomAxelle');"></a>
+            <input type="hidden"  id="PresAxelle" value="Chargée de production des fictions, la logistique n'a plus de secrets pour elle. La campagne de financement qu'elle a organisée a permis à l'équipe de manger à sa faim pendant la semaine de tournage. Elle fait également partie de l'équipe de communication, et projette de sinscrire au concours de Miss Bavay. Son plus grand rêve? La paix dans le monde (et réussir
+ses créneaux)"><input type='hidden' id="prenomAxelle" value='AXELLE'>
+            
+            </div>
+            
+            
+            
+            
+            
+            <div class="col-md-2" class='myos'> <a href="#" id="thomas" onmouseover="changeContent('PresThomas'); changeNom('prenomThomas');"></a>
+            <input type="hidden"  id="PresThomas" value="Tout juste débarqué de sa planète Krypton, Thomas a troqué son blouson d'aviateur pour une casquette de réalisateur. Sur le plateau, c'est lui qui fait valser les acteurs et suer les cadreurs. Il sait dire ''Moteur, Action, Coupez !'' en russe, en verlan, en rotant et parfois même en français.">
+            <input type='hidden' id="prenomThomas" value='THOMAS'>
+            
+            
+            </div>
+            <div class="col-md-2"><a href="#" id="raphael" onmouseover="changeContent('PresRaphael'); changeNom('prenomRaphael');"></a>
+            <input type="hidden"  id="PresRaphael" value="Homme de contraste. Raphaël sait manier les projecteurs comme personne, mais c'est dans l'obscurité d'une salle de montage qu'il s'épanouit. Toutes les semaines, il quitte sa chère et tendre capitale pour aller se mêler aux provinciaux, ce qui lui donne un air de faux raccord ; ce n'est pas ce qui l'effraie car c'est d'un clic qu'il le dissipe.">
+                <input type='hidden' id="prenomRaphael" value='RAPHAEL'>
+            
+            
+            </div>
+            <div class="col-md-2"><a href="#" id="marine" onmouseover="changeContent('PresMarine'); changeNom('prenomMarine');"></a>
+             <input type="hidden"  id="PresMarine" value="Pouce en l'air et sourire aux lèvres, Marine a quitté sa petite maison dans la prairie 'made in Normandie' (en musique, s'il vous plaît) pour prendre la tête de l'équipe communication. C'est elle qui se cache derrière la page Facebook de MYOS et qui a tenu nos millions de fans informés des avancées du projet.
+"><input type='hidden' id="prenomMarine" value='MARINE'>
+            
+            
+            </div>
+            
+        </div>
+    
+     <!--   <div class="row"> <div class='col-md-offset-12'> </div></div> -->
+        
+        
+        <div class="row">
+        <div class="col-md-offset-1 col-md-2" class='myos'><a href="#" id="gregoire" onmouseover="changeContent('PresGregoire'); changeNom('prenomGregoire');" ></a>
+            <input type="hidden"  id="PresGregoire" value="On dit qu'il serait arrivé à Valenciennes en marinière, à bord d'un voilier en provenance de St. Nazaire. L'autoroute est pourtant plus directe et moins fatigante, mais Grégoire n'aime pas
+les court-circuits. Derrière sa machine, il travaille dur pour faire vivre ce site web."><input type="hidden" id="prenomGregoire" value="GREGOIRE">
+            
+            
+            
+            
+            
+            
+            </div>
+            
+            <div class="col-md-6">
+                
+                
+                <div id="nom">
+                    <div id="equipe">L'EQUIPE</div>
+                </div>
+            
+            
+            
+            
+            
+            </div>
+            
+            <div class="col-md-2" class="myos"><a href="#" id="arthur" onmouseover="changeContent('PresArthur'); changeNom('prenomArthur');" onmouseout="lequipe(nomEquipe);"></a>
+            <input type="hidden"  id="PresArthur" value="Grand adepte de poésie, le web n'a plus de secrets pour lui. Il utilise des mots obscurs tels que Joomla et procédure. Derrière son ordinateur il trime, et je n'arrive plus à trouver de rimes. Ah, si."><input type="hidden" id="prenomArthur" value="ARTHUR">
+                <input type="hidden" id="nomEquipe" value="L'EQUIPE">
+            
+            </div>
+        
+        
+        </div>
+    
+            <div class="row">
+            
+                <div class="col-md-offset-1 col-md-2" class="myos"> <a href="#" id="charlotte" onmouseover="changeContent('PresCharlotte'); changeNom('prenomCharlotte')"></a>
+                <input type="hidden"  id="PresCharlotte" value="Reine de photoshop, elle intègre l'équipe création dans l'espoir de transformer le projet en un remake de l'amour est dans le pré. Son chat sur les genoux, elle évacue ses frustrations en écrivant des scénarios où les personnages se font poursuivre par des monstres puis brutalement assassiner."><input type="hidden" id="prenomCharlotte" value="CHARLOTTE">
+                
+                </div>
+               
+                <div class="col-md-6">
+                    
+                    
+                    
+                    <div id="content"><div id="Myos"> </div> </div>
+                
+                
+                </div>
+                <div class="col-md-2" class="myos"><a href="#" id="marianne" onmouseover="changeContent('PresMarianne'); changeNom('prenomMarianne');" ></a>
+                    <input type="hidden"  id="PresMarianne" value="Après une longue carrière de Clodette, Marianne a découvert Tumblr et ses chats inter- galactiques. Elle a quitté Cloclo sur le champ pour aller chaperonner l'équipe création. Avec sa souris, elle donne de la forme et de la couleur au projet. Elle appartient également au trio d'Agents Monteurs sous le nom de code Chasseuse-de-faux-raccord.">
+                    <input type='hidden' id='prenomMarianne' value="MARIANNE">
+                    
+                    
+                    </div>
+            </div>
+    
+            
+    <div class='row'>
+            
+     <div class="col-md-offset-1 col-md-2" class="myos"><a href="#" id="yanis" onmouseover="changeContent('PresYanis'); changeNom('prenomYanis');"></a>
+         <input type="hidden"  id="PresYanis" value="Lassé du soleil marseillais, des criquets et du pastis, Yanis a décidé d'attraper sa doudoune et de suivre l'étoile du berger vers le Grand Nord. Il a fait monter la température pendant le tournage avec ses projecteurs, et s'est ensuite replié au chaud pour s'occuper de l'étalonnage des fictions. Notons qu'il est également la seule personne ayant assez de muscles pour manipuler le stabilisateur pendant plus de deux prises consécutives. La vitamine D, sans doute.">
+          <input type='hidden' id='prenomYanis' value="YANIS">
+                               
+        
+        
+        
+        
+        </div>
+            <div class="col-md-2" class="myos"> <a href="#" id="kevin"  onmouseover="changeContent('PresKevin'); changeNom('prenomKevin');"></a> 
+        <input type="hidden"  id="PresKevin" value="Passionné de comédie, il fait de ses journées des séquences et de ses phrases des répliques. C'est donc tout naturellement qu'il s'est tourné vers la scénarisation et qu'il a pu coucher sur le papier des jeux de mots dont il avait à peine osé rêver. Parce que le talent n'a pas de limite, il a aussi composé l'une des musiques du projet. Un rôle de composition en somme.">
+         </div>
+         <input type='hidden' id='prenomKevin' value="KEVIN">
+        
+        
+        
+        <div class="col-md-2" class='myos'> <a href="#" id="philippine" onmouseover="changeContent('PresPhilippine'); changeNom('prenomPhilippine');" onmouseout="lequipe('lequipeP')"></a>
+        <input type="hidden"  id="PresPhilippine" value="Maman de MYOS, elle assume la lourde tâche de coordonner tout le projet, et dégaine téléphone portable et ordinateur plus vite que son ombre pour taper sur les doigts de ceux qui ne respecteraient pas les deadlines. Maintenant que bébé MYOS vole de ses propres ailes, c'est elle qui va s'envoler vers l'Australie pour élever des petits kangourous.">
+            <input type='hidden' id='prenomPhilippine' value="PHILIPPINE">
+            <input type="hidden" id="lequipeP" value="L'EQUIPE">
+         </div>
+        
+        
+        <div class="col-md-2"><a href="#" id="adrien" onmouseover="changeContent('PresAdrien'); changeNom('prenomAdrien');" onmouseout="removeMouseOver('prenomAdrien');"></a>
+             <input type="hidden"  id="PresAdrien" value="Adrien a vécu mille vies. Il a fait le tour du monde, rencontré Barack Obama et Beyoncé en haut de l'Empire State Building, déjeuné avec Bonaparte. Actuellement, il visionne le dernier Star Wars bien confortablement installé dans un canapé sur la Lune, ''pépère''. Et tout cela grâce à un fond vert.">
+            <input type='hidden' id='prenomAdrien' value="ADRIEN">
+        
+        </div>
+        
+        
+        <div class="col-md-2"><a href="#" id="nicolas" onmouseover="changeContent('PresNicolas'); changeNom('prenomNicolas');" onmouseout="lequipe('labite')"></a>
+            <input type="hidden"  id="PresNicolas" value="Si vous tendez bien l'oreille vous pourrez sans doute l'entendre crier ''Silence !'' sur un tournage quelque part dans le monde. Pourtant c'est bien lui qui vient d'entamer une chanson de Balavoine, repris par le reste de l'équipe. Alors il pourra crier autant qu'il le veut : Tous les cris les SOS partent dans les airs...">
+               <input type='hidden' id='prenomNicolas' value="NICOLAS">
+        <input type="hidden" id="labite" value="L'EQUIPE">
+            
+        
+        </div>
+            
+        </div>
+    
+    
+    
+    
+  <footer> <a href="https://www.facebook.com/myos2016/?fref=ts" target="_blank" ><img class="icone" src="ICONE/facebook.png"></a> </footer>
+        
+        
+        
+        
+<script type="text/javascript">
+        function changeContent(presentation){
+            console.log(presentation);
+            var Pres = document.getElementById(presentation);
+            var Equipe = document.getElementById("equipe");
+            document.getElementById('content').innerHTML=Pres.value;
+            document.getElementById('content').style.fontFamily="Lato, sans-serif";
+            document.getElementById('content').style.color="white";
+            document.getElementById('content').style.fontSize="18px";
+            Equipe.style.display="none";
+            }
+        
+        function changeNom(nom){
+            console.log(nom);
+            var Name=document.getElementById(nom);
+            var logo = document.getElementById("Myos");
+            document.getElementById('nom').innerHTML=Name.value;
+            document.getElementById('nom').style.fontFamily="Unica One";
+            document.getElementById('nom').style.fontSize="30px";
+            document.getElementById('nom').style.color="white";
+            logo.style.display="none";
+        }
+    
+    
+    
+    function removeMouseOver(nom){
+        var Name = document.getElementById(nom);
+        type=hidden;
+         }
+    
+        </script>
+    </body>
+</html>

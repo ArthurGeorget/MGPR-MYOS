@@ -1,0 +1,385 @@
+.contain{
+    width: 100vw;
+    height:46vw;
+  
+    margin-left: 14vw;
+    margin-top: 5vw;
+}
+
+h1{
+    font-family: 'Unica One', cursive;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 6vw;
+    
+}
+
+#reload{
+    diplay: none;
+    text-align: center;
+}
+
+a{
+    text-align: center;
+}
+
+p{
+    margin-top: 3vw;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25vw;
+    color: white;
+}
+
+#foot{
+    margin-top: 18vw;
+    position: absolute;
+}
+
+
+#equipe{
+    text-align: center;
+    display: block;
+
+}
+
+#logo1{
+    width: 34vw;
+    height: 11vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    display: block;
+   /* text-align: center;*/
+    
+}
+
+#contenu{
+    width:36vw;
+    height: 24vw;
+   
+    margin-top: 15vw;
+    margin-left: 29vw;
+}
+
+#contenuTudi{
+    margin-top: 10vw;
+    text-align: justify;
+    width:35vw;
+    height: 23vw;
+    display: none;
+}
+
+#contenuAxelle{
+    width:35vw;
+    height: 23vw; 
+    text-align: justify;
+    display: none;
+}
+
+#contenuThomas{
+    width:35vw;
+    height: 23vw; 
+    text-align: justify;
+    display: none;
+}
+
+#contenuRaphael{
+    width:35vw;
+    height: 23vw; 
+    text-align: justify;
+    display: none;
+}
+
+#contenuMarine{
+    width:35vw;
+    height: 23vw; 
+    text-align: justify;
+    display: none;
+}
+
+#contenuGregoire{
+    width:35vw;
+    height: 23vw; 
+    text-align: justify;
+    display: none;
+}
+
+#contenuArthur{
+    width:35vw;
+    height: 23vw; 
+    text-align: justify;
+    display: none;
+}
+
+#contenuCharlotte{
+    width:35vw;
+    height: 23vw; 
+    text-align: justify;
+    display: none;
+}
+
+#contenuMarianne{
+    width:35vw;
+    height: 23vw; 
+    text-align: justify;
+    display: none;
+}
+
+#contenuYanis{
+    width:35vw;
+    height: 23vw;
+    text-align: justify;
+    display: none;
+}
+
+#contenuKevin{
+    width:35vw;
+    height: 23vw; 
+    text-align: justify;
+    display: none;
+}
+
+#contenuPhilippine{
+    width:35vw;
+    height: 23vw; 
+    text-align: justify;
+    display: none;
+}
+
+#contenuAdrien{
+    width:35vw;
+    height: 23vw; 
+    text-align: justify;
+    display: none;
+}
+
+#contenuNicolas{
+    width:35vw;
+    height: 23vw; 
+    text-align: justify;
+    display: none;
+}
+
+#tudi{
+    width: 10vw;
+    height: 10vw;
+    float: left;
+    margin-left: 18vw;
+    margin-top: -10vw;
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/01_TUDI_NEUTRE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#tudi:hover{
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/01_TUDI_SURVOL.png);
+}
+
+#gregoire{
+    width: 10vw;
+    height: 10vw;
+    float: left;
+    margin-top: 2vw;
+    margin-left: 18vw;
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/06_GREGOIRE_NEUTRE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#gregoire:hover {
+	 background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/06_GREGOIRE_SURVOL.png);
+}
+
+#charlotte{
+    width: 10vw;
+    height: 10vw;
+    float: left;
+    margin-top: -10vw;
+    margin-left: 18vw;
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/08_CHARLOTTE_NEUTRE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#charlotte:hover {
+	 background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/08_CHARLOTTE_SURVOL.png);
+}
+
+#yanis{
+    width: 10vw;
+    height: 10vw;
+    float: left;
+    margin-top: 2vw;
+    margin-left: 18vw;
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/10_YANIS_NEUTRE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#yanis:hover{
+     background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/10_YANIS_SURVOL.png);
+}
+
+#axelle{
+    width: 10vw;
+    height: 10vw;
+    margin-left: 30vw;
+    margin-top: -10vw;
+    float: left;
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/02_AXELLE_NEUTRE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#axelle:hover{
+     background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/02_AXELLE_SURVOL.png);
+}
+
+#thomas{
+    width: 10vw;
+    height: 10vw;
+    margin-left: 42vw;
+    margin-top: -10vw;
+    float:left;
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/03_THOMAS_NEUTRE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#thomas:hover{
+     background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/03_THOMAS_SURVOL.png);
+}
+
+#raphael{
+    width: 10vw;
+    height: 10vw;
+    float: left;
+    margin-left:54vw;
+    margin-top: -10vw;
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/04_RAPHAEL_NEUTRE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#raphael:hover{
+     background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/04_RAPHAEL_SURVOL.png);
+}
+
+#marine{
+    width: 10vw;
+    height: 10vw;
+    float: left;
+    margin-top: -10vw;
+    margin-left: 66vw;
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/05_MARINE_NEUTRE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#marine:hover{
+     background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/05_MARINE_SURVOL.png);
+}
+
+#arthur{
+    width: 10vw;
+    height: 10vw;
+    float:left;
+    margin-top: -22vw;
+    margin-left: 66vw;
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/07_ARTHUR_NEUTRE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#arthur:hover{
+     background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/07_ARTHUR_SURVOL.png);
+}
+
+#marianne{
+    width: 10vw;
+    height: 10vw;
+    float:left;
+    margin-top: -10vw;
+    margin-left: 66vw;
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/09_MARIANNE_NEUTRE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#marianne:hover{
+     background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/09_MARIANNE_SURVOL.png);
+}
+
+#nicolas{
+    width: 10vw;
+    height: 10vw;
+    float:left;
+    margin-top: -10vw;
+    margin-left:66vw;
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/14_NICOLAS_NEUTRE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#nicolas:hover{
+     background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/14_NICOLAS_SURVOL.png);
+}
+
+#adrien{
+    width: 10vw;
+    height: 10vw;
+    float: left;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/13_ADRIEN_NEUTRE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#adrien:hover{
+     background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/13_ADRIEN_SURVOL.png);
+}
+
+#philippine{
+    width: 10vw;
+    height: 10vw;
+    float :left;
+    margin-top: 2vw;
+    margin-left:2vw;
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/12_PHILIPPINE_NEUTRE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#philippine:hover{
+     background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/12_PHILIPPINE_SURVOL.png);
+}
+
+#kevin{
+    width: 10vw;
+    height: 10vw;
+     float :left;
+    margin-top: 2vw;
+    margin-left:2vw;
+    background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/11_KEVIN_NEUTRE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#kevin:hover{
+     background-image: url(../MEDIA/IMG/PHOTOS_EQUIPE/11_KEVIN_SURVOL.png);
+}

@@ -1,0 +1,251 @@
+.noir{
+    position: absolute;
+    width: 102%;
+    height: 102%;
+    margin-top: -14%;
+    background:black;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+
+
+.contain{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 10%;
+   /* border: 5px solid white;*/
+    z-index:2;
+}
+
+h1{
+    font-family: 'Unica One', cursive;
+    color: white;
+    font-size: 5vw;  
+    text-align: left;   
+}
+
+
+p{
+    font-family: 'Unica One', cursive;
+    color: white;
+    font-size: 5vw;  
+    text-align: center;
+}
+
+
+
+#nomSa{
+    width:100%;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    max-height: inherit;
+    text-align: center;
+}
+
+
+
+#nomSi{
+    width:100%;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    max-height: inherit;
+    text-align: center;
+}
+
+
+
+#nomL{
+    width:100%;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    max-height: inherit;
+    text-align: center;
+    
+   
+
+}
+
+#photoSi{
+    width:30%;
+    max-width:30%;
+    height: 80%;
+    max-height: 80%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 4%;
+}
+
+
+
+#simon{
+    width: 100%;
+    max-width: 100%;
+    
+    height: 70%;
+    max-height: 100%;   
+  /*  display: block;*/
+    position: relative;
+    background-image: url(../MEDIA/IMG/PERSONNAGES/SIMON.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position:top;
+    border-bottom: 3px solid white;
+    opacity: 0.3;
+     -webkit-transition: all 1s ease;
+    transition: all 1s ease;   
+}
+
+/*
+#simon:hover{
+    height: 100%;
+  /*  filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
+*/
+
+#textSi{
+    width: 50%;
+    height: 50%;
+    margin-left: 40%;
+    margin-top: 2%;
+    position: absolute;
+    font-family: 'Lato' sans-serif;
+    font-size: 1.5vw;
+    color:white;
+    z-index:-5;
+    text-align: left;
+}
+
+
+
+
+#sacha{
+    width: 100%;
+    max-width: 100%;
+
+    height: 70%;
+    max-height: 100%;
+    background-image: url(../MEDIA/IMG/PERSONNAGES/SACHA.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: top;
+    opacity: 0.3;
+    border-bottom: 3px solid white;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;   
+}
+
+
+
+
+
+#photoSa{
+    width:30%;
+    max-width:30%;
+    height: 80%;
+    max-height: 80%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 4%;
+}
+
+
+#textSa{
+    width: 50%;
+    height: 50%;
+    margin-left: 40%;
+    margin-top: 2%;
+    position: absolute;
+    font-family: 'Lato' sans-serif;
+    font-size: 1.5vw;
+    color:white;
+    z-index:-4;
+    text-align: left;
+}
+
+
+
+#louise{
+    width: 100%;
+    max-width: 100%;
+    height: 70%;
+    max-height: 100%;
+    background-image: url(../MEDIA/IMG/PERSONNAGES/LOUISE.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: top;
+    opacity: 0.3;
+     border-bottom: 3px solid white;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;   
+}
+
+
+#photoL{
+    width:30%;
+    max-width:30%;
+    height: 80%;
+    max-height: 80%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 4%;
+}
+
+
+#textL{
+    width: 50%;
+    height: 50%;
+    margin-left: 40%;
+    margin-top: 2%;
+    position: absolute;
+    font-family: 'Lato' sans-serif;
+    font-size: 1.5vw;
+    color:white;
+    z-index:-6;
+    text-align: left;
+}
+
+
+
+
+#commencer {
+    width: 20%;
+    height: 8vw;
+    position:absolute;
+    text-align:center;
+    padding-top: 1.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 0.5vw solid white;
+    text-decoration: none; 
+    margin-top: 30%;
+    margin-left: 50%;
+    z-index: -8;
+}
+
+#commencer:hover{
+    background-color: rgba(0, 169, 206, 0.25);
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+a:hover{
+    
+    text-decoration: none;
+}

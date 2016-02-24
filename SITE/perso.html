@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <head>
+    <title> Make Your Own Story</title>
+    <link href="STATIC/bootstrap/css/bootstrap.css" rel="stylesheet">
+   <link href='https://fonts.googleapis.com/css?family=Unica+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="STATIC/style.css">    
+    <link rel="stylesheet" href="CSS/perso.css">
+    <style type="text/css">a:link{text-decoration:none}</style>
+    </head>
+    <body>
+  
+        <div class="row">
+            <div class="col-sm-3"> 
+             <a href="Acceuil.html"> <img id="logo" src="MEDIA/MYOS_logo.png"></a>
+            
+            </div>
+            <div class="col-sm-9">
+                
+                <ul id="menu2">
+                    <a id="menu"> MENU</a>
+                    
+                    <li> <a href="regles.html"> RÈGLES </a></li>
+                    
+                    <li> <a href="concept.html"> CONCEPT </a></li>
+        
+                    <!--  <li> <a href="#"> COMMENTAIRES </a></li> -->
+                    
+                    <li> <a href="equipe2.HTML"> ÉQUIPE </a></li>
+                    
+                    <li> <a href="credits.html"> CRÉDITS </a></li>
+                
+                </ul>
+            
+            </div>
+        </div>
+        
+        <div class="row">
+           <div class="col-md-offset-1 col-md-1"><div id="reload"><A href="javascript:window.location.reload()"><img src="MEDIA/ICONE/fleche.png" margin-top="1vw"></A></div></div> 
+            <div class="col-md-offset-1 col-md-8"> 
+           <h1>CHOISIR UN PERSONNAGE...</h1>
+            </div>
+     </div>
+     <div class="contain">
+         
+         
+         <div id="photoSi">
+         <div id="simon"  onmouseover="overSimon();" onmouseout="outSimon();" onclick="removeMouseOutSi(); Simon();"></div>
+             <div id="nomSi"><p>SIMON</p></div>
+         </div>
+         
+         <div id="photoSa">
+         <div id="sacha" onmouseover="overSacha();" onmouseout='outSacha();' onclick="removeMouseOutSa(); Sacha();"></div>
+         <div id="nomSa"><p>SACHA</p></div>    
+         </div>
+    
+         <div  id="photoL">
+         <div id="louise" onmouseover="overLouise();" onmouseout="outLouise();" onclick="removeMouseOutL(); Louise();"></div>
+         <div id="nomL"><p>LOUISE</p></div>    
+         </div>
+         
+        
+        </div>
+            
+      
+    
+    <div id="textSa">
+<p>SACHA</p><br>
+AGE : 22ans<br>
+ACTIVITE PROFESSIONNELLE : Etudiant<br>
+HOBBIES : Jouer à GTA<br>
+QUALITE : Courageux<br>
+DEFAUT : Paresseux<br>
+CHANSON FETICHE : Three little birds de Bob Marley<br>
+DEVISE : Un Sacha sachant chasser sans son chat est un bon chasseur.</div>
+       
+     <div id="textSi"><p>SIMON</p><br>
+AGE : 25ans<br>
+ACTIVITE PROFESSIONNELLE : Chimiste<br>
+HOBBIES : Flûte à bec<br>
+QUALITE : Optimiste<br>
+DEFAUT : Maladroit<br>
+CHANSON FETICHE : You are so beautiful de Joe Cocker<br>
+DEVISE : Quand le chat n'est pas là, les souris dansent.
+         
+</div>
+       
+<div id="textL">
+       <p> LOUISE</p><br>
+AGE : 24ans<br>
+ACTIVITE PROFESSIONNELLE : Professeur de mathématiques <br>
+HOBBIES : Danse et code informatique<br>
+QUALITE : Curieuse<br>
+DEFAUT : N'a peur de rien (enfin c'est ce qu'elle dit) 
+    <br>CHANSON FETICHE : Space Oddity de David Bowie
+<br>DEVISE : A bon chat, bon rat.</p>
+        
+        </div>    
+    <div id="commencer"><a>COMMENCER</a></div><div id="commencer"><a>COMMENCER</a></div><div id="commencer"><a>COMMENCER</a></div>
+    
+       <div class="noir">
+        </div>
+           
+    
+  <footer><a href="https://www.facebook.com/myos2016/?fref=ts" target="_blank" ><img class="icone" src="MEDIA/ICONE/facebook.png"></a>
+      <img class="partenaire" src="MEDIA/calasoft.png">|  <a id="text" href="mentionlegales.html"> <font face="lato", sans serif size="3">       mentions légales      </font></a>  |<img class="partenaire1" src="MEDIA/espace-lumiere.png"> </footer>
+
+
+ 
+        
+        
+        <script type="text/javascript">
+            
+            
+                 function overSacha(){
+                var opac = document.getElementById("sacha");
+                opac.style.opacity="1";
+                opac.style.height="100%";   
+            }
+            
+            function outSacha(){
+                var opac = document.getElementById("sacha");
+                opac.style.opacity='0.3';
+                opac.style.height="70%";
+            
+            }
+            
+            function removeMouseOutSa(){
+            var Sacha = document.getElementById("sacha");
+            Sacha.onmouseout= null;
+                             
+            }
+            
+            
+            
+        //Deplacer les div au clique. 
+            function Sacha (){
+                var Simon = document.getElementById('photoSi');
+                var Sacha = document.getElementById('photoSa');
+                var Louise = document.getElementById('photoL');
+                var tSacha = document.getElementById("textSa");
+                var com = document.getElementById("commencer");
+                var nom = document.getElementById("nomSa");
+                var fleche = document.getElementById("reload");
+                
+                                fleche.style.display="block";
+                    Simon.style.display="none";
+                    Louise.style.display="none";
+                    tSacha.style.zIndex="3";
+                    Sacha.style.opacity="1";
+                    com.style.zIndex="8";
+                    nom.style.display="none";
+
+            }
+            
+            
+            function overSimon(){
+                var opac = document.getElementById("simon");
+                opac.style.opacity="1";
+                opac.style.height="100%";   
+            }
+            
+            function outSimon(){
+                var opac = document.getElementById("simon");
+                opac.style.opacity='0.3';
+                opac.style.height="70%";
+            
+            }
+            
+            function removeMouseOutSi(){
+            var Simon = document.getElementById("simon");
+            Simon.onmouseout= null;
+                             
+            }
+            
+            
+            
+                function Simon (){
+                var Simon = document.getElementById('photoSi');
+                var Sacha = document.getElementById('photoSa');
+                var Louise = document.getElementById('photoL');
+                var tSimon = document.getElementById("textSi");
+                var com = document.getElementById("commencer");
+                var opac = document.getElementById("simon");
+                var nom = document.getElementById("nomSi");
+                    
+                var fleche = document.getElementById("reload");
+                
+                                fleche.style.display="block";
+                
+                    Sacha.style.display="none";
+                    Louise.style.display="none";
+                    tSimon.style.zIndex="5";
+                    Sacha.style.filter="100";
+                    com.style.zIndex="8";
+                    opac.style.opacity="1";
+                    nom.style.display="none";
+                
+                    
+            }
+            
+                 function overLouise(){
+                var opac = document.getElementById("louise");
+                opac.style.opacity="1";
+                opac.style.height="100%";   
+            }
+            
+            function outLouise(){
+                var opac = document.getElementById("louise");
+                opac.style.opacity='0.3';
+                opac.style.height="70%";
+            
+            }
+            
+            function removeMouseOutL(){
+            var Louise = document.getElementById("louise");
+            Louise.onmouseout= null;
+                             
+            }
+            
+            function Louise (){
+                var Simon = document.getElementById('photoSi');
+                var Sacha = document.getElementById('photoSa');
+                var Louise = document.getElementById('photoL');
+                var tLouise = document.getElementById("textL");
+                var com = document.getElementById("commencer");
+                var nom = document.getElementById("nomL");
+                
+                var fleche = document.getElementById("reload");
+                
+                                fleche.style.display="block";
+                
+                    Sacha.style.display="none";
+                    Simon.style.display="none";
+                    tLouise.style.zIndex="6";
+                    Sacha.style.filter="100"; 
+                    com.style.zIndex="8";
+                    opac.style.opacity="1";
+                    tLouise.style.opacity="1";
+                    nom.style.display="none";
+            }
+        
+         
+        </script>
+        
+        
+        
+        
+   
+    </body>
+</html>

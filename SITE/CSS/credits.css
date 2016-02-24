@@ -1,0 +1,60 @@
+.contain {
+    width: 600px;
+    height: 500px;
+    margin: 1em auto;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.marquee {
+    top: 6em;
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 90s linear infinite;
+}
+
+.marquee:hover {
+    animation-play-state: paused;
+}
+
+/* Make it move! */
+@keyframes marquee {
+    0%   { top:   40em }
+    100% { top: -400em }
+}
+
+/* Make it look pretty */
+.microsoft .marquee {
+	margin: 0;
+    padding: 0 1em;
+    line-height: 1.5em;
+}
+
+p{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 18px
+}
+
+a{   
+    font-family: 'Unica One', cursive;
+    color: white;
+    text-decoration: none;
+    /*font-size: 30px;*/
+}
+
+a:hover{
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+
+h1{
+    font-family: 'Unica One', cursive;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
